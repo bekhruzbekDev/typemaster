@@ -1,0 +1,29 @@
+.header {
+  padding-top: 55px;
+  margin-bottom: 83px;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-btn {
+  border-radius: 8px;
+  padding: 16px 26px;
+  background: #e8eff2;
+  cursor: pointer;
+  border: none;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 162%;
+  text-transform: uppercase;
+  color: #162542;
+  @media (max-width: 500px) {
+padding: 11px 14px;
+  }
+}
+.header-btn:hover {
+  background: #162542;
+  color: #fff;
+  transition: all 0.8s;
+}

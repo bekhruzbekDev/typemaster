@@ -1,0 +1,43 @@
+
+.home{
+    position: relative;
+    margin-bottom: 30px;
+}
+.home-container{
+    width: 100%;
+    max-width: 1134px;
+    margin: 0 auto;
+    padding-left:24px ;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+    gap: 70px;
+}
+.icon{
+    right: 0;
+    position: absolute;
+   border-radius: 20px 0 0 20px;
+width: 135px;
+height: 240px;
+background: #e8eff2;
+z-index: -1;
+@media (max-width:1150px) {
+    display: none;
+}
+}
+.home-photo{
+    width: 540px;
+height: 480px;
+border-radius:20px ;
+}
+@media (max-width:700px) {
+ .home-container{
+    flex-direction: column;
+    align-items: center;
+ } 
+ .home-photo{
+    border-radius: 20px 0 0 20px;
+    width: 372px;
+    height: 331px;
+ }
+}
