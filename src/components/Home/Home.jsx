@@ -7,7 +7,7 @@ function Home(){
         <div className="icon"></div>
            <div className="home-container">
             <HomeInfo/>
-              <img src="./public/assets/image/keyboard-one.jpg" alt="keyboard-one" className="home-photo"/>  
+              <img src="./assets/image/keyboard-one.jpg" alt="keyboard-one" className="home-photo"/>  
             </div> 
         </section>  
 )
